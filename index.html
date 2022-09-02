@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz on Triangles</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">FUN WITH TRIANGLES</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline"><a href="angles.html" class="link ">Is Triangle?</a></li>
+            <li class="list-item-inline"><a href="index.html" class="link link-active">Quiz</a></li>
+            <li class="list-item-inline"><a href="hypotenuse.html" class="link ">Hypotenuse</a></li>
+            <li class="list-item-inline"><a href="area.html" class="link ">Area</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Quiz on triangles</h1>
+        <p class="description">Score 1 point on every correct answer!</p>
+        <form id="quiz-form">
+        <div class="question-container">
+            <p id="questionOne">Which type of triangle has one 90° angle?</p>
+            <label><input type="radio"  name="optionOne" value="Acute">Acute</label>
+            <label><input type="radio"  name="optionOne" value="Right">Right</label>
+            <label><input type="radio"  name="optionOne" value="Obtuse">Obtuse</label>
+        </div>
+        <div class="question-container">
+            <p id="questionTwo">Which of the following triangles are always similar?</p>
+            <label><input type="radio"  name="optionTwo" value="Equilateral triangle">Equilateral triangle</label>
+            <label><input type="radio"  name="optionTwo" value="Isoceles triangle">Isoceles triangle</label>
+            <label><input type="radio" name="optionTwo" value="Obtuse triangle">Obtuse triangle</label>
+        </div>
+        <div class="question-container">
+            <p id="questionThree">If the perimeter of a triangle is 100 cm and the length of the two sides are 30 cm and 40 cm, the length of the third side will be:</p>
+            <label><input type="radio" name="optionThree" value="30">30</label>
+            <label><input type="radio"  name="optionThree" value="45">45</label>
+            <label><input type="radio"  name="optionThree" value="24">24</label>
+        </div>
+        <div class="question-container">
+            <p id="questionFour">Following are all angles of a triangle. Which of the following makes up a right angled triangle?</p>
+            <label><input type="radio"  name="optionFour" value="30, 100, 50">30°, 100°, 50°</label>
+            <label><input type="radio"  name="optionFour" value="30, 90, 60">30°, 90°, 60°</label>
+            <label><input type="radio"  name="optionFour" value="110, 30, 40">110°, 30°, 40°</label>
+        </div>
+        <div class="question-container">
+            <p id="questionFive">An angle whose measure is more than 90°?</p>
+            <label><input type="radio"  name="optionFive" value="Acute">Acute</label>
+            <label><input type="radio"  name="optionFive" value="Right">Right</label>
+            <label><input type="radio"  name="optionFive" value="Obtuse">Obtuse</label>
+        </div>
+
+        <div class="question-container">
+            <p id="questionSix">
+                Can the three lengths(12, 15, 35) represent side lengths of a triangle?</p>
+            <label><input type="radio"  name="optionSix" value="yes">yes</label>
+            <label><input type="radio"  name="optionSix" value='no'>no</label>
+            <label><input type="radio"  name="optionSix" value="insufficient">insufficient information to answer question</label>
+        </div>
+        <div class="question-container">
+            <p id="questionSeven">
+                A triangle can have...</p>
+            <label><input type="radio"  name="optionSeven" value="3 right angle">3 right angles</label>
+            <label><input type="radio"  name="optionSeven" value='3 acute angles'>3 acute angles</label>
+            <label><input type="radio"  name="optionSeven" value="1 obtuse angle">1 obtuse angle</label>
+        </div>
+        <div class="question-container">
+            <p id="questionEight">
+                Which of the following can form a right angled triangle?</p>
+            <label><input type="radio"  name="optionEight" value="3, 4, 5">3, 4, 5</label>
+            <label><input type="radio"  name="optionEight" value='10, 11, 12'>10, 11, 12</label>
+            <label><input type="radio"  name="optionEight" value="6, 7, 8">6, 7, 8</label>
+        </div>
+        <div class="question-container">
+            <p id="questionNine">
+                Which of the following is true for pythagorus theorem, a² + b² = ?</p>
+            <label><input type="radio"  name="optionNine" value="c²">c²</label>
+            <label><input type="radio"  name="optionNine" value='no'>30²</label>
+            <label><input type="radio"  name="optionNine" value="no such equation exists">no such equation exists</label>
+        </div>
+        <div class="question-container">
+            <p id="questionTen">
+                Which of the following has exactly two equal sides?</p>
+            <label><input type="radio"  name="optionTen" value="Isoceles">Isoceles</label>
+            <label><input type="radio"  name="optionTen" value="Equilateral">Equilateral</label>
+            <label><input type="radio"  name="optionTen" value="Scalene">Scalene</label>
+        </div>
+        </form>
+        <button id="btn-answer" class="link-primary">Submit Answers</button>
+        <h2 id="score-div" class='mesage-headers'>
+        </h2>
+    </main>
+    <footer class="footer container">
+        <div class="footer-header">Connect with me</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in/radhika-mendiratta-4091a9bb/" class="link"><img class="linkedinlogo" src="linkedin.jpg" alt="linkedin"></a></li>
+            <li class="list-item-inline"><a href="https://twitter.com/radhikamendira2?t=ruk6tvQf6QIztbFcZKx-2g&s=08" class="link"><img class="twitterlogo" src="twitter.jpg" alt="twitter"></a></li>
+            <li class="list-item-inline"><a href="https://github.com/radhika2104" class="link"><img class="githublogo" src="github.jpg" alt="github"></a></li>
+            
+        </ul>
+    </footer>
+    
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
