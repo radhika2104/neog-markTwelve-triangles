@@ -24,7 +24,7 @@ main{
 }
 
 .question-container{
-    max-width: 800px;
+    max-width: 600px;
     margin: 4rem auto;
 }
 
@@ -113,6 +113,11 @@ main{
 
  .navigation .nav-pills {
     text-align: right;
+ }
+
+ .optiondiv{
+    margin: 0.8rem;
+    text-align: left;
  }
 
 
