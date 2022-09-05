@@ -174,5 +174,19 @@ main{
     text-align: center;
 }
 
+@media (max-width:300px){
+    .footer .linkedinlogo{
+        width: 3rem;
+    }
+    
+    .footer .twitterlogo{
+        width: 2.8rem;
+    }
+    
+    .footer .githublogo{
+        width: 3.2rem;
+        position: relative; bottom: 5px;
+    }
+}
 
   
