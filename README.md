@@ -21,7 +21,8 @@ This is an app which helps a user build their knowledge about triangles playing 
 ## Learnings
 
 - understanding FormData and how it is used in javascript to manipulate inputs in an HTML form
-- understanding template literals to use variables in strings
+- HTML trick: using input inside label to show radio's button display value close to the button
+- understanding template literals to use variables in strings in javascript
 
 ## Tech stack Used
 
