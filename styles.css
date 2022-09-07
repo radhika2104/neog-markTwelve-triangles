@@ -12,6 +12,19 @@ body{
     margin: 0px .4px 0px 0.4px;
     
 }
+
+    /* Firefox - hide scroll arrows in input field */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Chrome, Safari, Edge, Opera - hide scroll arrows in input field */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 main{
     margin: auto;
     text-align: center;
